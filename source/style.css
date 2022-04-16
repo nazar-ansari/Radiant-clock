@@ -4,3 +4,19 @@ body {
   color: #333;
   font-family: Helvetica, sans-serif;
 }
+/* ul properties for removing styles  */
+ul {
+  list-style: none;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+}
+/* Aligning ul -> li <text> SHADOW effect */
+li {
+  position: absolute;
+  transform-origin: 50% 100%;
+  height: 160px;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
