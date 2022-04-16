@@ -201,3 +201,9 @@ li {
   width: 5px;
   height: 7px;
 }
+/* RotateHand use as an keyword for animation properties */
+@keyframes rotateHand {
+  to {
+    transform: rotate(360deg);
+  }
+}
