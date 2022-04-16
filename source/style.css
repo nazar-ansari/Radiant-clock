@@ -1,0 +1,6 @@
+/* Default properties for main body */
+body {
+  background: rgb(2, 15, 18);
+  color: #333;
+  font-family: Helvetica, sans-serif;
+}
