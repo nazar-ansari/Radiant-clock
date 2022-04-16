@@ -111,3 +111,13 @@ li {
 .hours li:nth-of-type(12) span {
   transform: rotate(-360deg);
 }
+/* Clock properties and positioning to relative */
+#clock {
+  background: radial-gradient(green 20%, yellow 80%);
+  border: 10px double #0c9e2ba5;
+  border-radius: 50%;
+  position: relative;
+  width: 320px;
+  height: 320px;
+  margin: 100px auto;
+}
