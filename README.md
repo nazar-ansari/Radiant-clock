@@ -7,7 +7,7 @@
   
  * Made for Practising the _**CSS3**_ animation style **.**
 
-###Preview:
+### Preview:
 - You can find the Source Block [Here](./source/index.html).
   
 ![clock](./source/Clock.gif#gh-dark-mode-only)
@@ -19,13 +19,15 @@
 
 
   * :one: `cd ~/` 
-  <br>
+  
  * :two: `git clone https://github.com/nazar-ansari/Radiant-clock.git `
-  <br>
+ 
  * :three:`cd Radiant-clock/`
-  <br>
-  * :four: `git remote -v`
-  ![remote-location](./source/remote.png)
+ 
+ * :four: `git remote -v`
+  
+   ![remote-location](./source/remote.png)
+  
   * :five:`code index.html`
   <hr>
   
