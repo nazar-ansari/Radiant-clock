@@ -13,3 +13,20 @@
 ![clock](./source/Clock.gif#gh-dark-mode-only)
 
 - Feel free to _**Contribute**_ to this Project with Respective to  [Developer](@nazar-ansari) **.**
+<hr><h4>Contribution Steps:<h4><hr>
+
+> :warning: Make Sure to Create a `Pull Request` with Different `Branch ` name **.**
+
+
+  * :one: `cd ~/` 
+  <br>
+ * :two: `git clone https://github.com/nazar-ansari/Radiant-clock.git `
+  <br>
+ * :three:`cd Radiant-clock/`
+  <br>
+  * :four: `git remote -v`
+  ![remote-location](./remote.png)
+  * :five:`code index.html`
+  <hr>
+  
+  **Copyright :copyright: :** **nazar-ansari** [GNU](./LICENSE)
