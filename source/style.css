@@ -121,3 +121,83 @@ li {
   height: 320px;
   margin: 100px auto;
 }
+/* JavaScript pre-rotates these wrappers instead of the hands when getting the time at load. If it pre-rotates the hands, then the hands will not perform 1 turn at their normal speeds. */
+.hr-wrapper,
+.min-wrapper,
+.sec-wrapper {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+}
+
+.hand {
+  position: absolute;
+  bottom: 50%;
+  transform-origin: 50% 100%;
+}
+
+/* Defining div.hr-wrapper.hr properties */
+.hr {
+  background: rgb(17, 86, 3);
+  left: 152px;
+  width: 13px;
+  height: 105px;
+  border-radius: 40%;
+  border: 2px double rgb(14, 9, 1);
+  animation: rotateHand 1000s linear infinite;
+}
+
+.hr:after {
+  background: rgb(3, 17, 1);
+  border-radius: 40%;
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -8px;
+  width: 13px;
+  height: 16px;
+}
+
+/* Defining div.min-wrapper.min properties */
+.min {
+  background: rgb(17, 86, 3);
+  left: 155px;
+  width: 9px;
+  height: 125px;
+  border-radius: 40%;
+  border: 2px double rgb(14, 9, 1);
+  animation: rotateHand 600s linear infinite;
+}
+
+.min:after {
+  background: rgb(3, 17, 1);
+  border-radius: 40%;
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -8px;
+  width: 9px;
+  height: 16px;
+}
+
+/* Defining div.sec-wrapper.sec properties */
+.sec {
+  background: rgba(248, 5, 5, 0.756);
+  left: 156.5px;
+  width: 5px;
+  height: 132px;
+  border-radius: 40%;
+  border: 2px double rgb(14, 9, 1);
+  animation: rotateHand 60s linear infinite;
+}
+
+.sec:after {
+  background: rgb(14, 9, 1);
+  border-radius: 50%;
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -3.5px;
+  width: 5px;
+  height: 7px;
+}
