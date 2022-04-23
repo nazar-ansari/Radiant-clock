@@ -10,7 +10,7 @@
 ### Preview:
 - You can find the Source Block [Here](./source/index.html).
   
-![clock](./source/Clock.gif#gh-dark-mode-only)
+![clock](./source/Clock.gif)
 
 - Feel free to _**Contribute**_ to this Project with Respective to  [Developer](https://github.com/nazar-ansari) **.**
 <hr><h4>Contribution Steps:<h4><hr>
